@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: #464646;
+    margin-top: 10%;
+    color: #ffffff;
+    padding: 35px 0px;
+    flex-direction: column;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.head{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head>span{
+    width: 470px;
+}
+
+.button-change{
+    border: none;
+    background-color: #464646;
+    color: #e6e6e6;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.month-column{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-inline: 28px;
+    margin-top: 50px;
+    color: #B5BEC6;
+}
+
+.week-day{
+    width: 14.23%;
+    height: 55px;
+    text-align: center;
+    justify-content: space-between;
+}
+.calender-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-inline: 0px;
+    padding-inline: 25px;
+}
+
+.calender-day{
+    width: 78.5px;
+    height: 78.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.today{
+    background-color: #F04D23;
+    border-radius: 50%;
+}
+
+.day-number{
+    width: 70%;
+    height: 70%;
+    padding-top: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -95,3 +95,7 @@ body{
     justify-content: center;
     cursor: pointer;
 }
+
+.day-other-month{
+    color: #8a8a8a; ;
+}
